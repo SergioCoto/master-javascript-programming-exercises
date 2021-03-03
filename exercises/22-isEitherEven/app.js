@@ -1,1 +1,11 @@
 // Write your function here
+function isEitherEven(num1, num2) {
+    // your code here
+    if ((num1 % 2 == 0)) {
+        return true
+    } else if (num2 % 2 == 0) {
+        return true
+    } else { return false }
+}
+var output = isEitherEven(1,4);
+console.log(output); // --> true
